@@ -1,0 +1,315 @@
+* {
+margin: 0 px ;
+padding: 0 px ;
+box-sizing: border-box ;
+}
+
+/* ------------------Header------------------ */
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logoSearchRow {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#logoSearchRow .logoML {
+    width: 50%;
+}
+
+#logoSearchRow #searchIcon {
+    z-index: 10;
+    position: relative;
+    right: 30px;
+    margin-top: 7px;
+    height: 20px
+}
+
+#logoSearchRow #searchBar {
+    width: 50%;
+}
+
+#searchBar {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#searchIcon {
+    background-color: white;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding: 1px;
+    margin-left: 10px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    /* background: transparent; */
+}
+
+#compraTarjeta {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+#compraTarjeta i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    display: none;
+}
+
+nav div a{
+    display: flex;
+    flex-direction: column;
+}
+
+nav div div {
+    display: flex;
+    flex-direction: row;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 22px;
+    width: 40px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #03264C;
+    box-sizing: border-box;
+    background-color: #1259c3;
+}
+
+#paddingBottomNav {
+    padding-bottom: 15px;
+}
+
+/* ------------------Body------------------ */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: left;
+}
+
+main {
+    /* border: 1px solid red; */
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: #ebebeb;
+}
+
+/* Main */
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+main form input  {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: left;
+    color: grey;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main .userForm button:hover  {
+    background-color: #0022AA;
+    }
+
+main .userForm button {
+    height: 30px;
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0px solid #ebebeb;
+}
+
+
+/* ------------------Footer------------------  */
+footer {
+    background-color: white;
+    text-align: center;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+    nav {
+        display: block;
+    }
+
+    .description {
+        display: block;
+        padding-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    #paddingNav1 {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-around;
+    }
+
+    #paddingNav2 {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-around;
+    }
+
+    .navFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    .completeHeader {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    #searchBar {
+        height: 30px;
+        margin-top: 15px;
+    }
+
+    #logoSearchRow #searchIcon {
+        z-index: 10;
+        position: relative;
+        right: 30px;
+        margin-top: 20px;
+        height: 20px
+    }
+
+    #compraTarjeta {
+        margin-left: 0px;
+    }
+
+    #compraTarjeta p{
+        padding-top: 20px;
+    }
+
+    .cuotas {
+    padding-top: 20px;
+    }
+
+    #logoSearchRow {
+        width: 65%;
+
+    }
+
+    #compraTarjeta {
+        width: 35%;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .item{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+}
+
+@media (min-width: 769px) {
+    nav {
+        display: block;
+    }
+
+    #paddingNav1 {
+    display: flex;
+    flex-direction: row;
+    }
+
+    #paddingNav2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+        .completeHeader {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    #searchBar {
+        height: 30px;
+        margin-top: 40px;
+    }
+
+    #logoSearchRow #searchIcon {
+        z-index: 10;
+        position: relative;
+        right: 30px;
+        margin-top: 45px;
+        height: 20px
+    }
+
+    .cuotas {
+        padding-top: 45px;
+    }
+
+    #logoSearchRow {
+        width: 65%;
+
+    }
+
+    #compraTarjeta {
+        width: 35%;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .item{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    .footerRow {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .footerRow i:hover {
+        color: yellowgreen;
+    }
+}
